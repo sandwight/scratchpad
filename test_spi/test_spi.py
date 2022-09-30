@@ -3,7 +3,7 @@ import busio
 import digitalio
 
 
-cs = digitalio.DigitalInOut(board.CS)
+cs = digitalio.DigitalInOut(board.D8)
 cs.direction = digitalio.Direction.OUTPUT
 cs.value = True
 
